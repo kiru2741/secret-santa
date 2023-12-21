@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/secret-santa/static/css/main.6d7721f7.chunk.css",
-    "main.js": "/secret-santa/static/js/main.69281ae4.chunk.js",
-    "main.js.map": "/secret-santa/static/js/main.69281ae4.chunk.js.map",
+    "main.css": "/secret-santa/static/css/main.58b83e17.chunk.css",
+    "main.js": "/secret-santa/static/js/main.cfaccbfc.chunk.js",
+    "main.js.map": "/secret-santa/static/js/main.cfaccbfc.chunk.js.map",
     "runtime~main.js": "/secret-santa/static/js/runtime~main.a79445ef.js",
     "runtime~main.js.map": "/secret-santa/static/js/runtime~main.a79445ef.js.map",
     "static/js/2.9b3da81b.chunk.js": "/secret-santa/static/js/2.9b3da81b.chunk.js",
     "static/js/2.9b3da81b.chunk.js.map": "/secret-santa/static/js/2.9b3da81b.chunk.js.map",
     "index.html": "/secret-santa/index.html",
-    "precache-manifest.a4847f6f39642d0a39e2f233b972a762.js": "/secret-santa/precache-manifest.a4847f6f39642d0a39e2f233b972a762.js",
+    "precache-manifest.2a28a88db9f2e6e38b764861a6771157.js": "/secret-santa/precache-manifest.2a28a88db9f2e6e38b764861a6771157.js",
     "service-worker.js": "/secret-santa/service-worker.js",
-    "static/css/main.6d7721f7.chunk.css.map": "/secret-santa/static/css/main.6d7721f7.chunk.css.map"
+    "static/css/main.58b83e17.chunk.css.map": "/secret-santa/static/css/main.58b83e17.chunk.css.map"
   }
 }
