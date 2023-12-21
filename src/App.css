@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+body {
+  background-color: rgb(245, 245, 245);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: rgb(60, 60, 60);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  padding: 0.5rem 3rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  background-color: rgb(223, 3, 3);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-left span {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Satisfy", cursive;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background-color: rgb(60, 60, 60);
+  border-radius: 5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.register-form {
+  margin: 5rem;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 2rem 0;
+  border: none;
+  outline: none;
+  font-size: medium;
+  padding: 0.25rem;
+  width: 300px;
+  border-bottom: 2px solid rgb(60, 60, 60);
+  background: none;
+}
+
+.message {
+  margin: 2rem 0;
+}
+
+.draw-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem;
+}
+
+.drawn-user {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  background-color: rgb(60, 60, 60);
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+.drawn-user p {
+  color: white;
+  font-size: 1.25rem;
 }
