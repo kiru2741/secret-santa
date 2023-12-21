@@ -12,6 +12,7 @@ const Register = () => {
   });
 
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const usersCollection = collection(db, "users");
 
@@ -25,13 +26,15 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted with data:", formData);
+    setLoading(true);
 
     try {
       await addDoc(usersCollection, formData);
       setMessage("Registration successful!");
+      setLoading(false);
     } catch (e) {
       setMessage(e.message);
+      setLoading(false);
     }
   };
 
@@ -72,7 +75,8 @@ const Register = () => {
         <button type="submit" className="">
           Submit
         </button>
-        {message && <p className="message">{message}</p>}
+        {loading && <p style={{ margin: "2rem 0" }}>Loading...</p>}
+        {message && <p style={{ margin: "2rem 0" }}>{message}</p>}
       </form>
     </div>
   );
