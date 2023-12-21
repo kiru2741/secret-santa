@@ -65,6 +65,7 @@ const Play = () => {
           onChange={handleInputChange}
           placeholder="Participant ID"
           required
+          spellCheck="false"
         />
 
         <button type="submit">Submit</button>

@@ -50,6 +50,7 @@ const Register = () => {
           onChange={handleInputChange}
           className=""
           placeholder="Name"
+          spellCheck="false"
         />
 
         <input
@@ -60,6 +61,7 @@ const Register = () => {
           onChange={handleInputChange}
           className=""
           placeholder="Address"
+          spellCheck="false"
         />
 
         <input
