@@ -38,7 +38,7 @@ const Register = () => {
   return (
     <div className="register-form">
       <form onSubmit={handleSubmit} className="">
-        <h3>Register to receive a gift from your Secret Santa</h3>
+        <h3>Register to receive a gift from secret Santa</h3>
         <input
           required
           type="text"

@@ -5,7 +5,7 @@ const ButtonStyle = {
   color: "rgb(60,60,60)",
   padding: "0.5rem 2rem",
   borderRadius: "5rem",
-  backgroundColor: "white",
+  backgroundColor: "rgb(255, 230, 230)",
   fontWeight: "bold",
 };
 
