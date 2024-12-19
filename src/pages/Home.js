@@ -13,7 +13,7 @@ function Home() {
       <h3>Here's how to play Secret Santa</h3>
 
       <p>Participants register their names.</p>
-      <p>Names are mixed up.</p>
+      {/* <p>Names are mixed up.</p> */}
       <p>Each participant draws a name.</p>
       <p>
         The person who draws a name is the Secret Santa of the person whose name
