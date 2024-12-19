@@ -24,6 +24,10 @@ function Home() {
         After opening their present, the giftee guesses who their Secret Santa
         is.
       </p>
+      <img
+        src="https://www.gwsmedia.com/sites/default/files/blog/images/Know%20the%20Law%20on%20Copyright.jpg"
+        alt="Christmas background"
+      ></img>
     </div>
   );
 }

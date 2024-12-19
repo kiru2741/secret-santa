@@ -15,12 +15,16 @@ const Layout = () => {
       <nav className="navbar">
         <div className="nav-left">
           <Link to="/">
-            <span>Secret Santa</span>
+            <span>Secret Santa </span>
+            <img
+              src="/pngegg.png"
+              alt="Christmas tree with gifts under it."
+            ></img>
           </Link>
         </div>
         <div className="nav-right">
           <Link to="/draw" style={ButtonStyle}>
-            <span>Draw</span>
+            <span>Draw names</span>
           </Link>
 
           <Link to="/register" style={ButtonStyle}>
