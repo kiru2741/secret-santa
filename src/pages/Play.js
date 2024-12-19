@@ -26,7 +26,9 @@ const Play = () => {
 
     if (currUser.length > 0 && currUser[0].data().isAllowed) {
       setMessage(
-        "Hi " + currUser[0].data().name + ", You should gift this person."
+        "Hi " +
+          currUser[0].data().name +
+          ", You should gift this person, please make sure you note down/screenshot their details, you can't view it again."
       );
       //pick a random user form the available users
       const available_users = users.docs.filter(
