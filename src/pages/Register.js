@@ -41,12 +41,10 @@ const Register = () => {
   return (
     <div className="register-form">
       <form onSubmit={handleSubmit} className="">
-        {/* <h3>Register to receive a gift from secret Santa</h3> */}
-        <h3>Registration has been closed, come back next year.</h3>
+        <h3>Register to receive a gift from secret Santa</h3>
 
         <input
           required
-          disabled
           type="text"
           name="name"
           value={formData.name}
@@ -58,7 +56,6 @@ const Register = () => {
 
         <input
           required
-          disabled
           type="text"
           name="address"
           value={formData.address}
@@ -70,7 +67,6 @@ const Register = () => {
 
         <input
           required
-          disabled
           type="text"
           name="number"
           value={formData.number}
@@ -79,7 +75,7 @@ const Register = () => {
           placeholder="Mobile number"
         />
 
-        <button disabled type="submit" className="">
+        <button type="submit" className="">
           Submit
         </button>
 
