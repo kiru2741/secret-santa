@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "528986af1bbf0bbbf83c5e9aea7b8bbc",
+    "revision": "afdc8c34297ef6e4ffe479e1b2388741",
     "url": "/secret-santa/index.html"
   },
   {
-    "revision": "60dd8bcb8b433b43d7ae",
+    "revision": "cc66ec07ac751868ef07",
     "url": "/secret-santa/static/css/main.7b3054f4.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/secret-santa/static/js/2.9b3da81b.chunk.js"
   },
   {
-    "revision": "60dd8bcb8b433b43d7ae",
-    "url": "/secret-santa/static/js/main.007ab6a5.chunk.js"
+    "revision": "cc66ec07ac751868ef07",
+    "url": "/secret-santa/static/js/main.a6419fc1.chunk.js"
   },
   {
     "revision": "54ab70af36e565caa615",
